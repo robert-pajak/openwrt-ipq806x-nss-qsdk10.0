@@ -27,7 +27,6 @@ platform_do_upgrade() {
 	zyxel,nbg6817)
 		zyxel_do_upgrade "$1"
 		;;
-	linksys,ea7500-v1 |\
 	linksys,ea8500)
 		platform_do_upgrade_linksys "$1"
 		;;
